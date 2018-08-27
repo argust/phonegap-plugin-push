@@ -135,7 +135,7 @@ public class PushPlugin extends CordovaPlugin implements PushConstants {
           .getSystemService(Context.NOTIFICATION_SERVICE);
       List<NotificationChannel> channels = notificationManager.getNotificationChannels();
       if (channels.size() == 0) {
-        NotificationChannel mChannel = new NotificationChannel(DEFAULT_CHANNEL_ID, "PhoneGap PushPlugin",
+        NotificationChannel mChannel = new NotificationChannel(DEFAULT_CHANNEL_ID, "Zeek Push",
             NotificationManager.IMPORTANCE_DEFAULT);
         mChannel.enableVibration(options.optBoolean(VIBRATE, true));
         mChannel.setShowBadge(true);
