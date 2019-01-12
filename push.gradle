@@ -15,6 +15,7 @@ android {
     defaultConfig {
         multiDexEnabled true
         applicationId = doExtractStringFromManifest("package")
+        
     }
 }
 
@@ -34,3 +35,4 @@ buildscript {
 ext.postBuildExtras = {
     apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
 }
+com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true
