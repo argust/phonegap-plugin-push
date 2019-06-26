@@ -16,7 +16,7 @@ android {
         multiDexEnabled true
         applicationId = doExtractStringFromManifest("package")
         
-    },
+    }
     flavorDimensions "versionCode"
 }
 
