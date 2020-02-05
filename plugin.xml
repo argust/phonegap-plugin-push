@@ -40,8 +40,11 @@
     </config-file>
     <framework src="com.android.support:support-v13:26.+"/>
     <framework src="me.leolin:ShortcutBadger:1.1.17@aar"/>
-    <framework src="com.google.firebase:firebase-messaging:$FCM_VERSION"/>
+    
+    
     <framework src="com.google.firebase:firebase-core:16.0.8"/>
+    <framework src="com.google.firebase:firebase-messaging:$FCM_VERSION"/>
+    <framework src="com.google.firebase:firebase-iid:17.1.1"/>
     <framework src="com.google.firebase:firebase-config:16.4.1"/>
     <framework src="com.google.firebase:firebase-perf:16.2.4"/>
     <framework src="push.gradle" custom="true" type="gradleReference"/>
