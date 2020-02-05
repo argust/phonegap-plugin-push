@@ -28,7 +28,6 @@ buildscript {
   dependencies {
       classpath 'com.android.tools.build:gradle:+'
       classpath 'com.google.gms:google-services:4.1.0'
-      implementation 'com.google.firebase:firebase-core:16.0.5'
   }
 }
 configurations.all() {
